@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CCCCCC;
+}
+
+header{
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.container{
+    width: 430px;
+    margin: auto;
+    background-color: white;
+}
+
+.container-icons{
+    display: flex;
+    
+}
+
+.icons{
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.icons img{
+    width: 50%;
+    cursor: pointer;
+}
+
+.icons img:active{
+    filter: opacity(30%);
+}
+
+.logo{
+    width: 350px;
+    
+    text-align: center;
+}
+
+#logo{
+    width: 100px;
+    text-align: center;
+}
+
+.bender{
+    padding: 10px 20px;
+    display: flex;
+}
+
+.perfil{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #EB4B24;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.ok{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.subtitles{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.subtitles h2{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.subtitles p{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #666666;
+}
+
+.feed{
+    width: 430px;
+    height: 400px;
+}
+
+.container-icons2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reactions{
+    display: flex;
+    
+}
+
+.icons2{
+    width: 40px;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+
+.icons2 img{
+    width: 60%;
+    cursor: pointer;
+}
+
+
+.icons2 img:hover{
+    filter: opacity(60%);
+}
+
+.likes{
+    padding: 10px 10px;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.hashtags{
+    color: #002D5E;
+    padding: 5px 0;
+}
+
+.user{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
+}
+    
+.footer-icons{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    
+}
+
+.copyright{
+    padding: 20px 20px;
+
+
+}
